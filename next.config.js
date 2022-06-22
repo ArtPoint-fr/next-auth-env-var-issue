@@ -36,10 +36,8 @@ module.exports = (phase) => {
 
     NEXTAUTH_SECRET: getEnvironmentVariable("NEXTAUTH_SECRET"),
 
-    GOOGLE_CLIENT_ID: getEnvironmentVariable("GOOGLE_CLIENT_ID"),
-    GOOGLE_CLIENT_SECRET: getEnvironmentVariable("GOOGLE_CLIENT_SECRET"),
-
-    AUTH_PRIVATE_KEY: getEnvironmentVariable("AUTH_PRIVATE_KEY"),
+    GOOGLE_ID: getEnvironmentVariable("GOOGLE_ID"),
+    GOOGLE_SECRET: getEnvironmentVariable("GOOGLE_SECRET"),
 
     EMAIL_SERVER: getEnvironmentVariable("EMAIL_SERVER"),
     EMAIL_FROM: getEnvironmentVariable("EMAIL_FROM"),
